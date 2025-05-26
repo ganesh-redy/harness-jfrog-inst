@@ -1,6 +1,7 @@
 provider "google" {
     
     zone = var.zone
+    project= "sam-458313"
   
 }
 resource "google_compute_instance" "inst" {
